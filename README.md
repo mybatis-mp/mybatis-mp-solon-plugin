@@ -1,4 +1,5 @@
 # 1.前置说明
+> 官方文档：http://mybatis-mp.cn
 ## 1.1 什么是 mybatis-mp
 > mybatis-mp 是一个基于mybatis的轻量级ORM框架；拥有流式丰富的API；设计超前，理念超前，稳定可靠！
 
@@ -37,7 +38,7 @@
 <dependency>
     <groupId>cn.mybatis-mp</groupId>
     <artifactId>mybatis-mp-solon-plugin</artifactId>
-    <version>1.4.7</version>
+    <version>1.5.0</version>
 </dependency>
 ```
 >mybatis-mp-solon-plugin 是 mybatis-mp针对solon 提供的插件
