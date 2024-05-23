@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cn.mybatis-mp</groupId>
+        <artifactId>mybatis-mp</artifactId>
+        <version>1.4.7</version>
+    </parent>
+
+    <url>https://gitee.com/mybatis-mp/mybatis-mp-solon-plugin</url>
+    <description>
+        mybatis-mp 之 solon 容器 启动插件
+    </description>
+
+    <artifactId>mybatis-mp-solon-plugin</artifactId>
+    <version>1.4.7</version>
+
+    <issueManagement>
+        <system>Gitee Issue</system>
+        <url>https://gitee.com/mybatis-mp/mybatis-mp-solon-plugin/issues</url>
+    </issueManagement>
+
+    <scm>
+        <connection>https://gitee.com/mybatis-mp/mybatis-mp-solon-plugin.git</connection>
+        <url>https://gitee.com/mybatis-mp/mybatis-mp-solon-plugin</url>
+    </scm>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <solon.version>2.7.3</solon.version>
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>mybatis-solon-plugin</artifactId>
+            <version>${solon.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.mybatis-mp</groupId>
+            <artifactId>mybatis-mp-core</artifactId>
+        </dependency>
+    </dependencies>
+</project>
