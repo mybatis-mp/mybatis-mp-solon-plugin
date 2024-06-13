@@ -6,7 +6,7 @@
     <parent>
         <groupId>cn.mybatis-mp</groupId>
         <artifactId>mybatis-mp</artifactId>
-        <version>1.5.7-rc8</version>
+        <version>1.5.8-rc</version>
     </parent>
 
     <url>https://gitee.com/mybatis-mp/mybatis-mp-solon-plugin</url>
@@ -15,7 +15,7 @@
     </description>
 
     <artifactId>mybatis-mp-solon-plugin</artifactId>
-    <version>1.5.7-rc8</version>
+    <version>1.5.8-rc</version>
 
     <issueManagement>
         <system>Gitee Issue</system>
