@@ -6,7 +6,7 @@
     <parent>
         <groupId>cn.mybatis-mp</groupId>
         <artifactId>mybatis-mp</artifactId>
-        <version>1.5.9</version>
+        <version>1.6.0-rc1</version>
     </parent>
 
     <url>https://gitee.com/mybatis-mp/mybatis-mp-solon-plugin</url>
@@ -15,7 +15,7 @@
     </description>
 
     <artifactId>mybatis-mp-solon-plugin</artifactId>
-    <version>1.5.9</version>
+    <version>1.6.0-rc1</version>
 
     <issueManagement>
         <system>Gitee Issue</system>
@@ -31,7 +31,7 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <solon.version>2.8.4</solon.version>
+        <solon.version>2.8.5</solon.version>
     </properties>
 
 
