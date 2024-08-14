@@ -34,12 +34,20 @@
         <solon.version>2.8.6</solon.version>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.noear</groupId>
+                <artifactId>mybatis-solon-plugin</artifactId>
+                <version>${solon.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>mybatis-solon-plugin</artifactId>
-            <version>${solon.version}</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.mybatis</groupId>
