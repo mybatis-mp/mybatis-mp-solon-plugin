@@ -6,16 +6,15 @@
     <parent>
         <groupId>cn.mybatis-mp</groupId>
         <artifactId>mybatis-mp</artifactId>
-        <version>1.6.3</version>
+        <version>1.6.5</version>
     </parent>
-
     <url>https://gitee.com/mybatis-mp/mybatis-mp-solon-plugin</url>
     <description>
         mybatis-mp 之 solon 容器 启动插件
     </description>
 
     <artifactId>mybatis-mp-solon-plugin</artifactId>
-    <version>1.6.3</version>
+    <version>1.6.5</version>
 
     <issueManagement>
         <system>Gitee Issue</system>
