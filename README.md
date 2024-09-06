@@ -38,7 +38,7 @@
 <dependency>
     <groupId>cn.mybatis-mp</groupId>
     <artifactId>mybatis-mp-solon-plugin</artifactId>
-    <version>1.6.7-rc5</version>
+    <version>1.6.7</version>
 </dependency>
 ```
 >mybatis-mp-solon-plugin 是 mybatis-mp针对solon 提供的插件
