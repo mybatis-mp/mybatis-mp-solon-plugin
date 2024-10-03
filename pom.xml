@@ -6,7 +6,7 @@
     <parent>
         <groupId>cn.mybatis-mp</groupId>
         <artifactId>mybatis-mp</artifactId>
-        <version>1.6.9</version>
+        <version>1.7.0-RC</version>
     </parent>
     <url>https://gitee.com/mybatis-mp/mybatis-mp-solon-plugin</url>
     <description>
@@ -14,7 +14,7 @@
     </description>
 
     <artifactId>mybatis-mp-solon-plugin</artifactId>
-    <version>1.6.9</version>
+    <version>1.7.0-RC</version>
 
     <issueManagement>
         <system>Gitee Issue</system>
@@ -30,7 +30,7 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <solon.version>2.9.4</solon.version>
+        <solon.version>2.6.4</solon.version>
     </properties>
 
     <dependencyManagement>
@@ -39,6 +39,12 @@
                 <groupId>org.noear</groupId>
                 <artifactId>mybatis-solon-plugin</artifactId>
                 <version>${solon.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.mybatis</groupId>
+                        <artifactId>mybatis</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -47,12 +53,7 @@
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>mybatis-solon-plugin</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.mybatis</groupId>
-                    <artifactId>mybatis</artifactId>
-                </exclusion>
-            </exclusions>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>cn.mybatis-mp</groupId>
