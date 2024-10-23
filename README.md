@@ -40,6 +40,12 @@
     <artifactId>mybatis-mp-solon-plugin</artifactId>
     <version>1.7.1</version>
 </dependency>
+
+<dependency>
+    <groupId>org.noear</groupId>
+    <artifactId>mybatis-solon-plugin</artifactId>
+    <version>2.9.4</version>
+</dependency>
 ```
 >mybatis-mp-solon-plugin 是 mybatis-mp针对solon 提供的插件
 
