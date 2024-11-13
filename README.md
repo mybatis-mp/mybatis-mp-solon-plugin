@@ -38,13 +38,13 @@
 <dependency>
     <groupId>cn.mybatis-mp</groupId>
     <artifactId>mybatis-mp-solon-plugin</artifactId>
-    <version>1.7.5</version>
+    <version>1.7.6-RC</version>
 </dependency>
 
 <dependency>
     <groupId>org.noear</groupId>
     <artifactId>mybatis-solon-plugin</artifactId>
-    <version>2.9.4</version>
+    <version>3.0.3</version>
 </dependency>
 ```
 >mybatis-mp-solon-plugin 是 mybatis-mp针对solon 提供的插件
