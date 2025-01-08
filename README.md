@@ -38,7 +38,7 @@
 <dependency>
     <groupId>cn.mybatis-mp</groupId>
     <artifactId>mybatis-mp-solon-plugin</artifactId>
-    <version>1.7.9-RC8</version>
+    <version>1.7.9-M3</version>
 </dependency>
 
 <dependency>
