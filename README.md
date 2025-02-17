@@ -1,13 +1,13 @@
 # 1.前置说明
-> 官方文档：http://mybatis-mp.cn
-## 1.1 什么是 mybatis-mp
-> mybatis-mp 是一个基于mybatis的轻量级ORM框架；拥有流式丰富的API；设计超前，理念超前，稳定可靠！
+> 官方文档：http://xbatis.cn
+## 1.1 什么是 xbatis
+> xbatis 是一个基于mybatis的轻量级ORM框架；拥有流式丰富的API；设计超前，理念超前，稳定可靠！
 
 > 支持spring,springboot;也支持solon
 > 
 ## 1.2 和mybatis的关系
-> mybatis-mp 是基于mybatis扩展的ORM框架，因为mybatis原则上不算是ORM框架；mybatis-mp是补充、扩展！
-## 1.3 mybatis-mp的优势
+> xbatis 是基于mybatis扩展的ORM框架，因为mybatis原则上不算是ORM框架；xbatis是补充、扩展！
+## 1.3 xbatis的优势
 >1. 轻量级封装mybatis,对mybatis的代码改动微乎其微；所以完全兼容mybatis所有功能，包括配置和使用
 
 >2. 基于注解，映射数据库；
@@ -36,9 +36,9 @@
 ## 2.1 maven 引入
 ```
 <dependency>
-    <groupId>cn.mybatis-mp</groupId>
-    <artifactId>mybatis-mp-solon-plugin</artifactId>
-    <version>1.8.1-RC3</version>
+    <groupId>cn.xbatis</groupId>
+    <artifactId>xbatis-solon-plugin</artifactId>
+    <version>1.8.1</version>
 </dependency>
 
 <dependency>
@@ -47,7 +47,7 @@
     <version>3.0.3</version>
 </dependency>
 ```
->mybatis-mp-solon-plugin 是 mybatis-mp针对solon 提供的插件
+>xbatis-solon-plugin 是 xbatis针对solon 提供的插件
 
 ## 2.2 solon yaml 配置
 ```yaml
@@ -120,8 +120,8 @@ public class DemoController {
 }
 ```
 
-# 3.更多使用mybatis-mp的使用说明
-请前往mybatis-mp 查看：https://gitee.com/mybatis-mp
+# 3.更多使用xbatis的使用说明
+请前往xbatis 查看：https://gitee.com/xbatis
 
 # 4.更多配置说明
 配置和 solon mybatis-solon-plugin 配置是一样的：https://solon.noear.org/article/20

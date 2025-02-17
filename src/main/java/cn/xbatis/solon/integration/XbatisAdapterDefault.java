@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2024-2025, Ai东 (abc-127@live.cn).
+ *  Copyright (c) 2024-2025, Ai东 (abc-127@live.cn) xbatis.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License").
  *  you may not use this file except in compliance with the License.
@@ -12,9 +12,9 @@
  *
  */
 
-package cn.mybatis.mp.solon.integration;
+package cn.xbatis.solon.integration;
 
-import cn.mybatis.mp.core.mybatis.configuration.MybatisConfiguration;
+import cn.xbatis.core.mybatis.configuration.MybatisConfiguration;
 import org.apache.ibatis.mapping.Environment;
 import org.apache.ibatis.solon.integration.MybatisAdapterDefault;
 import org.noear.solon.Utils;
@@ -28,13 +28,13 @@ import org.noear.solon.core.Props;
  * @author Ai东
  * @since 2.6.4
  */
-public class MybatisMpAdapterDefault extends MybatisAdapterDefault {
+public class XbatisAdapterDefault extends MybatisAdapterDefault {
 
-    protected MybatisMpAdapterDefault(BeanWrap dsWrap) {
+    protected XbatisAdapterDefault(BeanWrap dsWrap) {
         super(dsWrap);
     }
 
-    protected MybatisMpAdapterDefault(BeanWrap dsWrap, Props dsProps) {
+    protected XbatisAdapterDefault(BeanWrap dsWrap, Props dsProps) {
         super(dsWrap, dsProps);
     }
 

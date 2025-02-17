@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2024-2025, Ai东 (abc-127@live.cn).
+ *  Copyright (c) 2024-2025, Ai东 (abc-127@live.cn) xbatis.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License").
  *  you may not use this file except in compliance with the License.
@@ -12,21 +12,29 @@
  *
  */
 
-package cn.mybatis.mp.solon.integration;
+package cn.xbatis.solon.integration;
 
-import org.apache.ibatis.solon.integration.MybatisAdapterManager;
-import org.noear.solon.core.AppContext;
-import org.noear.solon.core.Plugin;
+import org.apache.ibatis.solon.MybatisAdapter;
+import org.apache.ibatis.solon.MybatisAdapterFactory;
+import org.noear.solon.core.BeanWrap;
+import org.noear.solon.core.Props;
 
 /**
- * 配置 mybatis-mp 插件。
+ * xbatis 适配器工厂。
  *
  * @author Ai东
  * @since 2.6.4
  */
-public class XPluginImpl implements Plugin {
+public class XbatisAdapterFactory implements MybatisAdapterFactory {
+
     @Override
-    public void start(AppContext context) {
-        MybatisAdapterManager.setAdapterFactory(new MybatisMpAdapterFactory());
+    public MybatisAdapter create(BeanWrap dsWrap) {
+        return new XbatisAdapterDefault(dsWrap);
     }
+
+    @Override
+    public MybatisAdapter create(BeanWrap dsWrap, Props dsProps) {
+        return new XbatisAdapterDefault(dsWrap, dsProps);
+    }
+
 }
