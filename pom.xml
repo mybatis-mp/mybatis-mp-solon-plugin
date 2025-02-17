@@ -21,6 +21,7 @@
         <groupId>cn.xbatis</groupId>
         <artifactId>xbatis</artifactId>
         <version>1.8.1</version>
+        <relativePath/>
     </parent>
     <url>https://gitee.com/xbatis/xbatis-solon-plugin</url>
     <description>
@@ -28,7 +29,6 @@
     </description>
 
     <artifactId>xbatis-solon-plugin</artifactId>
-    <version>1.8.1</version>
 
     <issueManagement>
         <system>Gitee Issue</system>
@@ -39,6 +39,24 @@
         <connection>https://gitee.com/xbatis/xbatis-solon-plugin.git</connection>
         <url>https://gitee.com/xbatis/xbatis-solon-plugin</url>
     </scm>
+
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>https://gitee.com/xbatis/xbatis-solon-plugin/blob/master/LICENSE</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Ai东</name>
+            <email>abc-127@live.cn</email>
+            <roles>
+                <role>Owner</role>
+            </roles>
+            <timezone>+8</timezone>
+        </developer>
+    </developers>
 
     <properties>
         <solon.version>3.0.7</solon.version>
@@ -64,11 +82,13 @@
         <dependency>
             <groupId>cn.xbatis</groupId>
             <artifactId>xbatis-core</artifactId>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>mybatis-solon-plugin</artifactId>
+            <version>${solon.version}</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
