@@ -82,13 +82,11 @@
         <dependency>
             <groupId>cn.xbatis</groupId>
             <artifactId>xbatis-core</artifactId>
-            <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>mybatis-solon-plugin</artifactId>
-            <version>${solon.version}</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
